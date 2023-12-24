@@ -1,0 +1,142 @@
+
+.left{
+    width: 60%;
+    padding: 10px 5%;
+    background: rgb(143,2,2);
+    background: linear-gradient(90deg, rgb(120, 2, 2) 9%, rgba(214,7,7,1) 82%);
+    height: 99%;
+}
+
+.left-title-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    padding-top: 0px;
+}
+
+.left-title{
+    color: rgb(255, 230, 0);
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.type{
+    background-color: rgb(216, 216, 216);
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-size: 33px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.type-bottom{
+    background-color: rgb(216, 216, 216);
+    padding: 3px 30px;
+    border-radius: 10px;
+    font-size: 33px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.keno{
+    /* color: hsla(0, 96%, 51%, 0.259); */
+    font-size: 60px;
+    margin-top: -12px;
+    color: rgb(247,13,6);
+    font-weight: 600;
+}
+
+.right{
+    width: 40%;
+    text-align: center;
+    padding-top: 20px;
+    background: rgb(99,3,3);
+    background: linear-gradient(-180deg, rgba(99,3,3,1) 42%, rgba(14,1,1,1) 83%);
+    height: 99%;
+}
+
+/* .number{
+    
+    
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff0000;
+    justify-content: center;
+    
+} */
+.number {
+    width: 64px;
+    height: 58px;
+    border-radius: 13px; 
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    justify-content: center;
+    color: #cb0505;
+    background: linear-gradient(to bottom,
+    #b10303 0%,
+    #bd0303 35%, 
+    #8b0000 45%, 
+    #8b0000 100%);
+    font-weight: 800;
+  }
+.checked-number{
+    width: 64px;
+    height: 58px;
+    background-color: rgb(255, 230, 0);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: #000000;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.time{
+    margin-top: 20px;
+    font-size: 80px;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.pick{
+    color: #ff0000;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.flex{
+    display: flex;
+    text-align: start;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.hits-title{
+    color: rgb(255, 230, 0);
+    margin-right: 60px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.hits-content{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    /* width: 80%; */
+    margin: auto;
+    margin-top: 5px;
+    
+}
