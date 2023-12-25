@@ -3,8 +3,24 @@
   src: local('Eurostile-Roman'), url(./fonts/Eurostile-Roman.ttf) format('truetype');
   font-weight: normal;
 }
+@font-face {
+  font-family: 'GoodTimesRegular';
+  src: local('GoodTimesRegular'), url(./fonts/goodtimesRg.otf) format('opentype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'MoireBold';
+  src: local('MoireBold'), url(./Keno/MoireW01ExtraBold-602728ac.ttf) format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'MoireBoldS';
+  src: local('MoireBoldS'), url(./Keno/MoireBold-f1e609a2.ttf) format('truetype');
+  font-weight: normal;
+}
 * {
   margin: 0;
   padding: 0;
   font-family: 'Eurostile-Roman';
+  height: auto;
 }

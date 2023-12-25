@@ -5,8 +5,8 @@ import { Number } from './number.tsx';
 export const LeftSection = ()=>{
     return <div className='left'>
         <div className='left-title-container'>
-        <h1 className='left-title'>DRAW <span style={{color:"white"}}>5162</span></h1>
-        <h1 className='type'>EVENS</h1>
+        <h1 className='left-title draw2'>DRAW </h1> <h1 className="left-num"> 5162</h1>
+        <div className='type'></div>
         </div>
         <div className='numbers'>
             {Array.from({ length: 10 }).map((_,i)=>{
@@ -60,8 +60,8 @@ export const LeftSection = ()=>{
         </div>
 
         <div className='left-title-container' style={{marginTop:"10px"}}>
-        <h1 className='keno'>KENO</h1>
-        <h1 className='type-bottom'>EVENS</h1>
+        <div className='keno'></div>
+        <div className='type'></div>
         </div>
     </div>
 }
