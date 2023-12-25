@@ -1,16 +1,24 @@
 .left{
     width: 60%;
     padding: 10px 5%;
-    background: rgb(145,4,4);
-background: linear-gradient(270deg, rgba(145,4,4,1) 36%, rgba(60,3,3,1) 83%);
+    /*background: rgb(145,4,4);
+    background: linear-gradient(270deg, rgb(213, 3, 3) 45%, rgb(122, 2, 2) 90%); */
+    background: rgb(207, 2, 2);
+    background: linear-gradient(270deg, rgb(236, 0, 0) 36%, rgb(177, 5, 5) 83%);
+    height: 103%;
 }
 
 .left-title-container{
     display: flex;
     justify-content: space-between;
-    margin-top: -10px;
+    margin-top: -35px;
     padding-top: 0px;
-    
+}
+.right-title-container{
+    display: flex;
+    /*   */
+    margin-top: -10px;
+    /* padding-top: 0px; */
 }
 
 .left-title{
@@ -20,32 +28,42 @@ background: linear-gradient(270deg, rgba(145,4,4,1) 36%, rgba(60,3,3,1) 83%);
     margin-left: 190px;
     font-family: 'MoireBold';
     font-weight: 600;
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(180deg, rgb(168, 183, 5) 70%, rgb(7, 7, 9) 80%);
-    text-shadow: inset 60px 9px 15px #141313, -1px 1px 0 #fffbfb,; 
+    
   
 }
 .left-num {
-    font-size: 50px;
-    margin-top: 5px;
-    margin-left: -163px;
+    font-size: 55px;
+    margin-top: 25px;
+    margin-left: -108px;
     font-family: 'MoireBold';
     text-shadow: inset 5px 5px 5px #141313;
     font-weight: 600;
     color:white;
 }
 .right-num {
-    font-size: 50px;
+    font-size: 55px;
     margin-top: 5px;
-    margin-left: -3px;
+    margin-left: 15px;
     font-family: 'MoireBold';
     text-shadow:inset 10px 8px 10px #141313;
     font-weight: 600;
     color:white;
-    display: inline;
+    height: 10px;
 }
-
+.type1{
+    
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 40px;
+    background-image: url('../Keno/evens.png');
+    opacity: 0.8;
+    width: 165px;
+    background-position: center;
+    background-size: cover;
+    height: 45px;
+}
 .type{
     background-color: rgb(216, 216, 216);
     
@@ -53,11 +71,11 @@ background: linear-gradient(270deg, rgba(145,4,4,1) 36%, rgba(60,3,3,1) 83%);
     font-size: 33px;
     text-align: center;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: -3px;
     margin-bottom: 5px;
     background-image: url('../Keno/evens.png');
-    opacity: 0.8;
-    width: 150px;
+    opacity: 0.9;
+    width: 170px;
     background-position: center;
     background-size: cover;
     height: 45px;
@@ -73,11 +91,9 @@ background: linear-gradient(270deg, rgba(145,4,4,1) 36%, rgba(60,3,3,1) 83%);
 }
 
 .keno{
-    /* color: hsla(0, 96%, 51%, 0.259); */
-    
-    margin-top: 1px;
+    margin-top: -3px;
     /* color: rgb(247,13,6); */
-    height: 45px;
+    height: 40px;
     margin-left: 190px;
     background-image: url('../Keno/keno.png');
     opacity: 0.4;
@@ -90,9 +106,11 @@ background: linear-gradient(270deg, rgba(145,4,4,1) 36%, rgba(60,3,3,1) 83%);
     width: 40%;
     text-align: center;
     padding-top: 20px;
-    background: rgb(94, 1, 1);
-    background: linear-gradient(-180deg, rgb(66, 2, 2) 42%, rgba(14,1,1,1) 83%);
-    
+    /*background: rgb(94, 1, 1);
+    background: linear-gradient(-180deg, rgb(111, 1, 1) 30%, rgb(31, 2, 2) 80%); */
+    background: rgb(134, 3, 3);
+    background: linear-gradient(-180deg, rgb(103, 2, 2) 42%, rgb(50, 1, 1) 83%);
+    height: 103%;
 }
 
 /* .number{
@@ -110,16 +128,16 @@ background: linear-gradient(270deg, rgba(145,4,4,1) 36%, rgba(60,3,3,1) 83%);
 .number {
     width: 63px;
     height: 66px;
-    border-radius: 16px; 
+    border-radius: 15px; 
     display: flex;
     align-items: center;
     font-size: 40px;
     justify-content: center;
-    color: #c30303;
+    color: #e10505;
     font-weight: 800;
     background-image: url('../Keno/num4.png');
-    opacity: 0.6;
-    font-family: 'Eurostile-Roman';
+    opacity: 0.5;
+    font-family: 'MoireBoldS';
   }
 .checked-number{
     width: 63px;
@@ -140,31 +158,69 @@ background: linear-gradient(270deg, rgba(145,4,4,1) 36%, rgba(60,3,3,1) 83%);
 
 .time{
     margin-top: 10px;
-    font-size: 90px;
+    font-size: 85px;
     justify-content: center;
     font-weight: 1000;
     /* text-shadow: 5px 5px 10px #0f0e0e; */
     margin-left: -60px;
     font-family: 'MoireBold';
+    background: linear-gradient(to bottom, #ebe304 22%,#f7f703 24%, #fde403 26%, #fbfb03 27%,#f6ee03 40%,#3a2c0f 85%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fac105;
+    text-transform: uppercase;
 
 }
 .draw {
     /* text-shadow: 10px 8px 10px #141313; */
-    font-size: 50px; 
+    font-size: 55px; 
     font-weight: 900;
-    margin-left: -30px;
+    margin-left: 50px;
+    margin-top: 10px;
     font-family: 'MoireBold'; 
+    background: linear-gradient(to bottom, #ebe304 22%,#f7f703 24%, #fde403 26%, #fbfb03 27%,#f6ee03 40%,#3a2c0f 80%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fac105;
+    text-transform: uppercase;
+    /* margin: 0; */
 }
+.draw:after {
+    background: none;
+    content: attr(data-heading);
+    z-index: -1;
+    text-shadow: 
+        -1px 0 1px #c6bb9f, 
+        0 1px 1px #c6bb9f, 
+        5px 5px 10px rgba(0, 0, 0, 0.4),
+        -5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
 .draw2 {
     /* text-shadow: 10px 8px 10px #141313; */
-    font-size: 50px; 
-       
+    font-size: 55px; 
+    margin-top: 25px;   
     font-family: 'MoireBold';
     font-weight: bolder;
+    background: linear-gradient(to bottom, #ebe304 22%,#f7f703 24%, #fde403 26%, #fbfb03 27%,#f6ee03 40%,#3a2c0f 80%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fac105;
+    text-transform: uppercase;
+}
+.draw2:after {
+    background: none;
+    content: attr(data-heading);
+    z-index: -1;
+    text-shadow: 
+        -1px 0 1px #c6bb9f, 
+        0 1px 1px #c6bb9f, 
+        5px 5px 10px rgba(0, 0, 0, 0.4),
+        -5px -5px 10px rgba(0, 0, 0, 0.4);
 }
 .pick{
-    color: #ba0707;
-    font-size: 60px;
+    color: #ec0606;
+    font-size: 50px;
     font-weight: normal;
     margin-left: -60px;
     font-family: 'GoodTimesRegular';
@@ -180,16 +236,19 @@ background: linear-gradient(270deg, rgba(145,4,4,1) 36%, rgba(60,3,3,1) 83%);
 
 .hits-title{
     color: rgb(232, 209, 7);
-    margin-right: 60px;
+    margin-right: 100px;
+    margin-left: -25px;
     font-size: 40px;
     font-weight: bold;
 }
 .hits-content{
     color: #fff;
     font-size: 35px;
-    font-weight: bold;
+    font-family: 'MoireBoldS';
+    font-weight: normal;
     letter-spacing: 4px;
     line-height: 1.4;
+    margin-left: -25px;
 }
 
 

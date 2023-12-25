@@ -6,7 +6,7 @@ export const LeftSection = ()=>{
     return <div className='left'>
         <div className='left-title-container'>
         <h1 className='left-title draw2'>DRAW </h1> <h1 className="left-num"> 5162</h1>
-        <div className='type'></div>
+        <div className='type1'></div>
         </div>
         <div className='numbers'>
             {Array.from({ length: 10 }).map((_,i)=>{

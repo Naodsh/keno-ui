@@ -3,7 +3,9 @@ import "./style.css";
 
 export const RightSection = ()=>{
     return <div className='right'>
-            <h1 className='left-title draw'>DRAW <span className="right-num"> 5162</span></h1>
+        <div className='right-title-container'>
+            <h1 className='left-title draw'>DRAW </h1> <h1 className="right-num"> 5162</h1>
+            </div>
             <h1 className='left-title time'>02:05</h1>
             <h1 className='pick'>PICK 9</h1>
 
