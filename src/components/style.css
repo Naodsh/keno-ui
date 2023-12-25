@@ -12,13 +12,14 @@
     justify-content: space-between;
     margin-top: -10px;
     padding-top: 0px;
+    
 }
 
 .left-title{
     color: rgb(255, 230, 0);
     font-size: 50px;
-    font-weight: 700;
     margin-top: 5px;
+    margin-left: 180px;
 }
 
 .type{
@@ -47,6 +48,7 @@
     margin-top: -12px;
     color: rgb(247,13,6);
     font-weight: 600;
+    margin-left: 180px;
 }
 
 .right{
@@ -71,8 +73,8 @@
     
 } */
 .number {
-    width: 64px;
-    height: 58px;
+    width: 63px;
+    height: 66px;
     border-radius: 13px; 
     display: flex;
     align-items: center;
@@ -87,10 +89,10 @@
     font-weight: 800;
   }
 .checked-number{
-    width: 64px;
-    height: 58px;
+    width: 63px;
+    height: 66px;
     background-color: rgb(255, 230, 0);
-    border-radius: 15px;
+    border-radius: 18px;
     display: flex;
     align-items: center;
     font-size: 40px;
@@ -101,15 +103,23 @@
 
 .time{
     margin-top: 20px;
-    font-size: 80px;
+    font-size: 90px;
     justify-content: center;
-    font-weight: 700;
+    font-weight: 900;
+    text-shadow: 5px 5px 10px #0f0e0e;
+    margin-left: -60px;
 }
-
+.draw {
+    text-shadow: 10px 8px 10px #141313;
+    font-size: 70px;
+    font-weight: 900;
+    margin-left: -60px;
+}
 .pick{
     color: #ff0000;
     font-size: 60px;
     font-weight: bold;
+    margin-left: -60px;
 }
 
 .flex{
@@ -117,6 +127,7 @@
     text-align: start;
     width: 60%;
     margin: 10px auto;
+    
 }
 
 .hits-title{
@@ -134,9 +145,11 @@
 
 .numbers{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between;  */
     /* width: 80%; */
-    margin: auto;
-    margin-top: 5px;
+    margin-left:180px;
+    margin-top: 3px;
+    gap: 3px;
+
     
 }
